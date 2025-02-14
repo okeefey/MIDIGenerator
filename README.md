@@ -42,7 +42,7 @@ pip install music21 numpy tqdm tensorflow scikit-learn
 - Trains for 120 epochs with a batch size of 128.
 
 ```python
-model.fit(x_train, y_train, batch_size=128, epochs=100, validation_data=(x_test, y_test))
+model.fit(x_train, y_train, batch_size=128, epochs=120, validation_data=(x_test, y_test))
 ```
 
 ## Generating Music
