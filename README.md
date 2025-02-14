@@ -39,7 +39,7 @@ pip install music21 numpy tqdm tensorflow scikit-learn
 - Uses LSTM layers with dropout for sequence modeling.
 - Categorical cross-entropy loss with Adam optimizer.
 - Splits dataset into 80% training and 20% testing.
-- Trains for 80 epochs with a batch size of 128.
+- Trains for 120 epochs with a batch size of 128.
 
 ```python
 model.fit(x_train, y_train, batch_size=128, epochs=80, validation_data=(x_test, y_test))
